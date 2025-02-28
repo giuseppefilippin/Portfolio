@@ -86,9 +86,11 @@ export const About = () => {
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
             <div className="space-y-4 text-gray-300">
-                {/* copiar a Div abaixo para adicionar futuras work experience */}
-              <div> 
-                <h4 className="font-bold">Bolsista PIBITI / PIBIC at Lactec (2025-Present)</h4>
+              {/* copiar a Div abaixo para adicionar futuras work experience */}
+              <div>
+                <h4 className="font-bold">
+                  Bolsista PIBITI / PIBIC at Lactec (2025-Present)
+                </h4>
                 <p>
                   Developing a TRL calculator website as a scientific initiation
                 </p>
