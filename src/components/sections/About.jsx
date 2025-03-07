@@ -68,33 +68,30 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 📚 Educação </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>English Diploma</strong> Phill Young`s
+                  <strong>Diploma de inglês</strong> Phill Young`s
                 </li>
                 <li>
-                  <strong>High School Diploma</strong> Colegio Marista Santa
+                  <strong>Ensino médio</strong> Colegio Marista Santa
                   Maria(2018-2021)
                 </li>
                 <li>
-                  <strong>B.S. in Computer Science </strong> PUCPR
-                  University(2023-2026)
+                  <strong>Bacharelado em Ciência da Computação </strong> PUCPR(2023-2026)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Algorithms, Web
-                  Development, Databases
+                  Cursos relevantes: python, algoritimos, web development, data structures
                 </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <h3 className="text-xl font-bold mb-4"> 💼 Experiência </h3>
               <div className="space-y-4 text-gray-300">
                 {/* copiar a Div abaixo para adicionar futuras work experience */}
                 <div>
                   <h4 className="font-bold">
-                    Bolsista PIBITI / PIBIC at Lactec (2025-Present)
+                    Bolsista PIBITI / PIBIC at Lactec (2025-Atualemnte)
                   </h4>
                   <p>
-                    Developing a TRL calculator website as a scientific
-                    initiation
+                    Desenvolvendo uma Calculadora TRL como projeto de iniciação científica.
                   </p>
                 </div>
               </div>

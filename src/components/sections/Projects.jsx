@@ -9,16 +9,14 @@ export const Projects = () => {
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            Featured Projects
+            Projetos
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* copy and paste for futures projects*/}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
               <h3 className="text-xl font-bold mb-2">Movie List</h3>
               <p className="text-gray-400 mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum aperiam amet ex modi eius, quos, magnam dolorum
-                perferendis tempore
+                Uma aplicação com React e Vite, que exibe os filmes mais populares do momneto (utilizando uma API KEY), com a possibilidade de favoritar seus filmes preferidos.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React + Vite", "CSS", "API de filmes"].map((tech, key) => (
@@ -37,7 +35,7 @@ export const Projects = () => {
                   rel="noreferrer noopener"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project →
+                  Projeto →
                 </a>
               </div>
             </div>
@@ -66,7 +64,7 @@ export const Projects = () => {
                   rel="noreferrer noopener"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project →
+                  Projeto →
                 </a>
               </div>
             </div>
@@ -75,9 +73,10 @@ export const Projects = () => {
                 Jlox and Clox Interpreter
               </h3>
               <p className="text-gray-400 mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum aperiam amet ex modi eius, quos, magnam dolorum
-                perferendis tempore
+                Seguindo o livro "Crafting Interpreters" de Bob Nystrom, este
+                projeto consiste em um interpretador para a linguagem de
+                programação Lox, chamado Jlox, e um interpretador de bytecode
+                para a linguagem Lox (Feito em Java e C).
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Java", "C"].map((tech, key) => (
@@ -96,16 +95,14 @@ export const Projects = () => {
                   rel="noreferrer noopener"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project →
+                  Projeto →
                 </a>
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
               <h3 className="text-xl font-bold mb-2">Flask Website</h3>
               <p className="text-gray-400 mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum aperiam amet ex modi eius, quos, magnam dolorum
-                perferendis tempore
+                Uma aplicação feita em Python, com Flask, utilizando o wokwi e conexão mqtt, com mysql database para armazenar os dados.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Python", "Flask", "MQTT", "MySQL"].map((tech, key) => (
@@ -124,7 +121,7 @@ export const Projects = () => {
                   rel="noreferrer noopener"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project →
+                  Projeto →
                 </a>
               </div>
             </div>
