@@ -16,7 +16,9 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
               <h3 className="text-xl font-bold mb-2">Movie List</h3>
               <p className="text-gray-400 mb-4">
-                Uma aplicação com React e Vite, que exibe os filmes mais populares do momneto (utilizando uma API KEY), com a possibilidade de favoritar seus filmes preferidos.
+                Uma aplicação com React e Vite, que exibe os filmes mais
+                populares do momneto (utilizando uma API KEY), com a
+                possibilidade de favoritar seus filmes preferidos.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React + Vite", "CSS", "API de filmes"].map((tech, key) => (
@@ -40,6 +42,32 @@ export const Projects = () => {
               </div>
             </div>
             {/* copy until here*/}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+              <h3 className="text-xl font-bold mb-2">TRL Calculator</h3>
+              <p className="text-gray-400 mb-4">
+                Uma aplicação com React e Vite, hospedade em firebase, onde é calculado o TRL de uma tecnologia e armazenada no banco de dados, feito com o Lactec.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["React + Vite", "tailwindcss", "firebase hosting", "firebase dataset"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/giuseppefilippin/CalculadoraTRL"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  Projeto →
+                </a>
+              </div>
+            </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
               <h3 className="text-xl font-bold mb-2">Library</h3>
               <p className="text-gray-400 mb-4">
@@ -102,7 +130,8 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
               <h3 className="text-xl font-bold mb-2">Flask Website</h3>
               <p className="text-gray-400 mb-4">
-                Uma aplicação feita em Python, com Flask, utilizando o wokwi e conexão mqtt, com mysql database para armazenar os dados.
+                Uma aplicação feita em Python, com Flask, utilizando o wokwi e
+                conexão mqtt, com mysql database para armazenar os dados.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Python", "Flask", "MQTT", "MySQL"].map((tech, key) => (

@@ -11,7 +11,7 @@ export const About = () => {
   const backendSkills = [
     "Node.js",
     "Express",
-    "MongoDB",
+    "Firebase",
     "Python",
     "MySQL",
     "PHP",
